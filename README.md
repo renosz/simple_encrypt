@@ -12,7 +12,7 @@ mainPasswd, fullEncrypted, realPassword = Encrypt("Yourpassword")
 realPassword = Decrypt(fullEncrypted.encode())
 ```
 
-##Testing
+## Testing
 ```go
 python3 myenc.py
 ```
